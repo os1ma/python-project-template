@@ -19,6 +19,7 @@
         "charliermarsh.ruff",
         "ms-python.mypy-type-checker",
         "esbenp.prettier-vscode",
+        "tamasfe.even-better-toml",
         "bierner.markdown-preview-github-styles",
         "bierner.markdown-mermaid",
         "hediet.vscode-drawio"
