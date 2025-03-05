@@ -7,19 +7,21 @@
   "workspaceFolder": "/workspaces/workspace",
   "features": {
     "ghcr.io/va-h/devcontainers-features/uv:1": {
-      "version": "0.5.5"
+      "version": "0.6.4"
     }
   },
   "customizations": {
     "vscode": {
       "extensions": [
+        // Python
         "charliermarsh.ruff",
         "ms-python.mypy-type-checker",
-        "esbenp.prettier-vscode",
+        // TOML
         "tamasfe.even-better-toml",
+        // Markdown
+        "esbenp.prettier-vscode",
         "bierner.markdown-preview-github-styles",
-        "bierner.markdown-mermaid",
-        "hediet.vscode-drawio"
+        "bierner.markdown-mermaid"
       ]
     }
   },
