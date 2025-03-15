@@ -16,6 +16,7 @@
         // Python
         "charliermarsh.ruff",
         "ms-python.mypy-type-checker",
+        "ms-toolsai.jupyter",
         // TOML
         "tamasfe.even-better-toml",
         // Markdown
