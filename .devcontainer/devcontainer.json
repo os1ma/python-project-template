@@ -22,7 +22,9 @@
         // Markdown
         "esbenp.prettier-vscode",
         "bierner.markdown-preview-github-styles",
-        "bierner.markdown-mermaid"
+        "bierner.markdown-mermaid",
+        // Git
+        "jackiotyu.git-worktree-manager"
       ]
     }
   },
