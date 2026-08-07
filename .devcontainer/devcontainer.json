@@ -1,19 +1,18 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-  "name": "Python 3",
+  "name": "workspace",
   "dockerComposeFile": "compose.yaml",
   "service": "app",
   "workspaceFolder": "/workspaces/workspace",
   "features": {
-    "ghcr.io/va-h/devcontainers-features/uv:1": {
-      "version": "0.11.21"
+    "ghcr.io/devcontainers-extra/features/uv:1": {
+      "version": "0.12.2"
     },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "24.16.0"
     },
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
   "customizations": {
