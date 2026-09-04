@@ -160,3 +160,7 @@ cython_debug/
 #.idea/
 
 **/.claude/settings.local.json
+
+# Temporary files
+/tmp/*
+!/tmp/.gitkeep
