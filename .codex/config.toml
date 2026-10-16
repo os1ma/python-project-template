@@ -1,0 +1,6 @@
+# Claude Code の auto mode 相当。
+# サンドボックス内の操作は承認不要で実行し、対象となる承認要求は
+# 人間の代わりにレビューエージェントが判定する。
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+approvals_reviewer = "auto_review"
