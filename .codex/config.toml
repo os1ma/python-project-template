@@ -4,7 +4,3 @@
 approval_policy = "on-request"
 sandbox_mode = "workspace-write"
 approvals_reviewer = "auto_review"
-
-[sandbox_workspace_write]
-# ネットワーク利用もサンドボックス外の操作としてレビューに回す。
-network_access = false
