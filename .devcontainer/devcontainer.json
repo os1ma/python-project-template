@@ -7,7 +7,7 @@
   "workspaceFolder": "/workspaces/workspace",
   "features": {
     "ghcr.io/devcontainers-extra/features/uv:1": {
-      "version": "0.12.9"
+      "version": "0.13.4"
     },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "24.20.0"
